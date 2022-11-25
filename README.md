@@ -1,8 +1,6 @@
 # World_Weather_Analysis
 
-
-##Description
-
+## Description
 
 Provide real-time suggestions for client's ideal hotels. The "ideal" hotels are within a given range of latitude and longitude and provide the right kind of weather for the client.
 
@@ -10,7 +8,7 @@ Provide real-time suggestions for client's ideal hotels. The "ideal" hotels are 
 2: Create a Customer Travel Destinations Map
 3: Create a Travel Itinerary Map
 
-This repository includes:
+## This repository includes:
 
 The Weather_Database folder with the following:
 - Weather_Database.ipynb file
@@ -25,8 +23,7 @@ The Vacation_Itinerary folder with the following:
 - Vacation_Itinerary.ipynb file
 - WeatherPy_travel_map.png image
 
-
-Project Plan:
+## Project Plan:
 	
 1. Collect the Data
 	* Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
@@ -41,24 +38,27 @@ Project Plan:
 		▪ Cloudiness
 		▪ Wind speed
 2. Exploratory Analysis with Visualization
-	◦	Create scatter plots of the weather data for the following comparisons:
-	▪	Latitude versus temperature
-	▪	Latitude versus humidity
-	▪	Latitude versus cloudiness
-	▪	Latitude versus wind speed
-	◦	Determine the correlations for the following weather data:
-	▪	Latitude and temperature
-	▪	Latitude and humidity
-	▪	Latitude and cloudiness
-	▪	Latitude and wind speed
-	◦	Create a series of heatmaps using the Google Maps and Places API that showcases the following:
-	▪	Latitude and temperature
-	▪	Latitude and humidity
-	▪	Latitude and cloudiness
-	▪	Latitude and wind speed
-	3	Visualize Travel Data Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. Complete these steps:
-	1	Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
-	2	Create a heatmap for the new DataFrame.
-	3	Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
-	4	Store the name of the first hotel in the DataFrame.
-	5	Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city.
+	* Create scatter plots of the weather data for the following comparisons:
+		▪ Temperature vs. Latitude
+		▪ Humidity vs. Latitude
+		▪ Cloudiness vs. Latitude
+		▪ Wind Speed vs. Latitude
+	* Determine the correlations for the following weather data:
+		▪ Temperature vs. Latitude
+		▪ Humidity vs. Latitude
+		▪ Cloudiness vs. Latitude
+		▪ Wind Speed vs. Latitude
+	* Create a map itinerary using the GeoAPIfy and Places API that showcases the following:
+		▪ Temperature vs. Latitude
+		▪ Humidity vs. Latitude
+		▪ Cloudiness vs. Latitude
+		▪ Wind Speed vs. Latitude
+3. Visualize Travel Data
+	* Use Geoapify API and GeoViews to create maps that can display information on specific cities based on a customer's travel preferences. 
+ 	* Complete these steps:
+		a. Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
+		b. Setting Up the Geoapify API Key
+		c. Create Maps for Weather Parameters
+		d. Find hotels using the cities' coordinates with Geoapify's API and GeoViews, and search nearby feature.
+		d. Store the names' of the hotels based on the client's selections.
+		e. Create a travel map of the vacation itinerary.
