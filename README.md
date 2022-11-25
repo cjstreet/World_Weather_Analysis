@@ -1,52 +1,46 @@
 # World_Weather_Analysis
 
 
-describes the purpose of the repository. Although there is no graded written analysis for this challenge, it is encouraged and good practice to add a brief description of your project.
+##Description
 
-For this challenge, you will use the weather description data you've already retrieved in this module to enhance the PlanMyTrip app. Then, you'll have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. The beta tester will choose four cities from the list of potential travel destinations to create a travel itinerary. Finally, using the Geoapify Routing API, you will create a travel route between the four cities and a marker layer map.
 
-Deliverable 1: Retrieve Weather Data
-Deliverable 2: Create a Customer Travel Destinations Map
-Deliverable 3: Create a Travel Itinerary Map
-Upload the following to your WeatherPy GitHub repository:
+Provide real-time suggestions for client's ideal hotels. The "ideal" hotels are within a given range of latitude and longitude and provide the right kind of weather for the client.
+
+1: Retrieve Weather Data
+2: Create a Customer Travel Destinations Map
+3: Create a Travel Itinerary Map
+
+This repository includes:
 
 The Weather_Database folder with the following:
+- Weather_Database.ipynb file
+- WeatherPy_Database.csv file
 
-The Weather_Database.ipynb file
-The WeatherPy_Database.csv file
 The Vacation_Search folder with the following:
+- Vacation_Search.ipynb file
+- WeatherPy_vacation.csv file
+- WeatherPy_vacation_map.png image
 
-The Vacation_Search.ipynb file
-The WeatherPy_vacation.csv file
-The WeatherPy_vacation_map.png image
 The Vacation_Itinerary folder with the following:
-
-The Vacation_Itinerary.ipynb file
-The WeatherPy_travel_map.png image
-
-How might we provide real-time suggestions for our client's ideal hotels? Your first task was to define what you meant by "ideal." So, over the course of the conversation, you narrowed that to hotels that were (1) within a given range of latitude and longitude and that (2) provided the right kind of weather for the client.
-
-Basic Project Plan
-Here's an outline of your project plan:
-	•	Task: Collect and analyze weather data across cities worldwide.
-	•	Purpose: PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
-	•	Method: Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
+- Vacation_Itinerary.ipynb file
+- WeatherPy_travel_map.png image
 
 
-Your analysis of the data will be split into three main parts, or stages.
-	1	Collect the Data
-	◦	Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
-	◦	Use the citipy module to list the nearest city to the latitudes and longitudes.
-	◦	Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
-	◦	Parse the JSON data from the API request.
-	◦	Collect the following data from the JSON file and add it to a DataFrame:
-	▪	City, country, and date
-	▪	Latitude and longitude
-	▪	Maximum temperature
-	▪	Humidity
-	▪	Cloudiness
-	▪	Wind speed
-	2	Exploratory Analysis with Visualization
+Project Plan:
+	
+1. Collect the Data
+	* Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
+	* Use the citipy module to list the nearest city to the latitudes and longitudes.
+	* Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
+	* Parse the JSON data from the API request.
+	* Collect the following data from the JSON file and add it to a DataFrame:
+		▪ City, country, and date
+		▪ Latitude and longitude
+		▪ Maximum temperature
+		▪ Humidity
+		▪ Cloudiness
+		▪ Wind speed
+2. Exploratory Analysis with Visualization
 	◦	Create scatter plots of the weather data for the following comparisons:
 	▪	Latitude versus temperature
 	▪	Latitude versus humidity
