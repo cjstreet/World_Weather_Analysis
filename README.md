@@ -10,17 +10,17 @@ Provide real-time suggestions for client's ideal hotels. The "ideal" hotels are 
 ## This repository includes:
 
 The Weather_Database folder with the following:
-	* Weather_Database.ipynb file
-	* WeatherPy_Database.csv file
+* Weather_Database.ipynb file
+* WeatherPy_Database.csv file
 
 The Vacation_Search folder with the following:
-	* Vacation_Search.ipynb file
-	* WeatherPy_vacation.csv file
-	* WeatherPy_vacation_map.png image
+* Vacation_Search.ipynb file
+* WeatherPy_vacation.csv file
+* WeatherPy_vacation_map.png image
 
 The Vacation_Itinerary folder with the following:
-	* Vacation_Itinerary.ipynb file
-	* WeatherPy_travel_map.png image
+* Vacation_Itinerary.ipynb file
+* WeatherPy_travel_map.png image
 
 ## Project Plan:
 	
