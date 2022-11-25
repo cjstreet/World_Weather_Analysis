@@ -4,24 +4,24 @@
 
 Provide real-time suggestions for client's ideal hotels. The "ideal" hotels are within a given range of latitude and longitude and provide the right kind of weather for the client.
 
-1: Retrieve Weather Data
-2: Create a Customer Travel Destinations Map
-3: Create a Travel Itinerary Map
+1. Retrieve Weather Data
+2. Create a Customer Travel Destinations Map
+3. Create a Travel Itinerary Map
 
 ## This repository includes:
 
 The Weather_Database folder with the following:
-- Weather_Database.ipynb file
-- WeatherPy_Database.csv file
+	- Weather_Database.ipynb file
+	- WeatherPy_Database.csv file
 
 The Vacation_Search folder with the following:
-- Vacation_Search.ipynb file
-- WeatherPy_vacation.csv file
-- WeatherPy_vacation_map.png image
+	- Vacation_Search.ipynb file
+	- WeatherPy_vacation.csv file
+	- WeatherPy_vacation_map.png image
 
 The Vacation_Itinerary folder with the following:
-- Vacation_Itinerary.ipynb file
-- WeatherPy_travel_map.png image
+	- Vacation_Itinerary.ipynb file
+	- WeatherPy_travel_map.png image
 
 ## Project Plan:
 	
@@ -31,28 +31,28 @@ The Vacation_Itinerary folder with the following:
 	* Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
 	* Parse the JSON data from the API request.
 	* Collect the following data from the JSON file and add it to a DataFrame:
-		▪ City, country, and date
-		▪ Latitude and longitude
-		▪ Maximum temperature
-		▪ Humidity
-		▪ Cloudiness
-		▪ Wind speed
+		- City, country, and date
+		- Latitude and longitude
+		- Maximum temperature
+		- Humidity
+		- Cloudiness
+		- Wind speed
 2. Exploratory Analysis with Visualization
 	* Create scatter plots of the weather data for the following comparisons:
-		▪ Temperature vs. Latitude
-		▪ Humidity vs. Latitude
-		▪ Cloudiness vs. Latitude
-		▪ Wind Speed vs. Latitude
+		- Temperature vs. Latitude
+		- Humidity vs. Latitude
+		- Cloudiness vs. Latitude
+		- Wind Speed vs. Latitude
 	* Determine the correlations for the following weather data:
-		▪ Temperature vs. Latitude
-		▪ Humidity vs. Latitude
-		▪ Cloudiness vs. Latitude
-		▪ Wind Speed vs. Latitude
+		- Temperature vs. Latitude
+		- Humidity vs. Latitude
+		- Cloudiness vs. Latitude
+		- Wind Speed vs. Latitude
 	* Create a map itinerary using the GeoAPIfy and Places API that showcases the following:
-		▪ Temperature vs. Latitude
-		▪ Humidity vs. Latitude
-		▪ Cloudiness vs. Latitude
-		▪ Wind Speed vs. Latitude
+		- Temperature vs. Latitude
+		- Humidity vs. Latitude
+		- Cloudiness vs. Latitude
+		- Wind Speed vs. Latitude
 3. Visualize Travel Data
 	* Use Geoapify API and GeoViews to create maps that can display information on specific cities based on a customer's travel preferences. 
  	* Complete these steps:
